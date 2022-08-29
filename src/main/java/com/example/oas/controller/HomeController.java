@@ -66,6 +66,5 @@ public class HomeController {
 
   private PagedModel<EntityModel<HomeDto>> pagedModelOf(Page<HomeDto> page) {
     return pagedResourcesAssembler.toModel(page, representationModelAssembler);
-
   }
 }
